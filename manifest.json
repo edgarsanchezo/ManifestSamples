@@ -1,14 +1,19 @@
 {
-  "name": "HackerWeb",
-  "short_name": "HackerWeb",
-  "start_url": "/index.html",
+  "name": "Mi Sitio Web",
+  "short_name": "MiApp",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "description": "A readable Hacker News app",
+  "theme_color": "#000000",
   "icons": [
     {
-      "src": "images/icons/homescreen192.png",
+      "src": "icon-192x192.png",
       "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512x512.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ]
